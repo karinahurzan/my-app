@@ -6,7 +6,7 @@ import RandomColor from './components/random-color';
 function App() {
   return (
     <div className="App">
-      {/* <Accordion /> */}
+      <Accordion />
       <RandomColor />
     </div>
   );
