@@ -4,6 +4,7 @@ import Accordion from './components/accordion';
 import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
+import LoadMoreButton from './components/load-more-button';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         page={'1'}
         limit={'10'}
       />
+      <LoadMoreButton />
     </div>
   );
 }
