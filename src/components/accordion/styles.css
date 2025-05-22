@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  padding-bottom: 120px;
 }
 
 .acc-wrapper button {
