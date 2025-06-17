@@ -11,6 +11,8 @@ import QRCodeGenerator from './components/qr-code-generator';
 import LightDarkTheme from './components/light-dark-theme'
 import ScrollIndicator from './components/scroll-indicator';
 import TabTest from './components/custom-tabs/tab-test';
+import ModalTest from './components/custom-modal-popup/modal-test';
+import GithubProfileFinder from './components/github-profile-finder';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       <LightDarkTheme />
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       <TabTest />
+      <ModalTest />
+      <GithubProfileFinder />
     </div>
   );
 }
